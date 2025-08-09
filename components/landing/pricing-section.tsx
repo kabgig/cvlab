@@ -126,7 +126,7 @@ export function PricingSection() {
               </ul>
 
               <Button variant="outline" className="w-full">
-                Contact Sales
+                <a href="/waiting-list">Contact Sales</a>
               </Button>
             </CardContent>
           </Card>

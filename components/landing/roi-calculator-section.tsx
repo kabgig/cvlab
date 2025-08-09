@@ -128,7 +128,7 @@ export function ROICalculatorSection() {
                   </div>
 
                   <Button className="w-full mt-6 bg-blue-600 hover:bg-blue-700">
-                    Start Saving Now
+                    <a href="/waiting-list">Start Saving Now</a>
                   </Button>
                 </div>
               </div>

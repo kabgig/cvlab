@@ -21,7 +21,7 @@ export function Header() {
           <a href="#about" className="text-gray-600 hover:text-gray-900">
             About
           </a>
-          <a href="#login" className="text-gray-600 hover:text-gray-900">
+          <a href="/waiting-list" className="text-gray-600 hover:text-gray-900">
             Login
           </a>
         </nav>
