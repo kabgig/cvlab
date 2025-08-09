@@ -23,7 +23,7 @@ export function FinalCTASection() {
           <Button
             size="lg"
             variant="outline"
-            className="border-blue-200 text-blue-200 hover:bg-blue-200 hover:text-blue-600"
+            className="border-blue-200 text-blue-600 hover:bg-blue-200 hover:text-blue-600"
           >
             Calculate Your ROI
           </Button>
