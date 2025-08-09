@@ -3,12 +3,9 @@ node_modules/
 *.pack.gz
 
 # Next.js
-.next/
+.next/**
 out/
 build/
-
-# Next.js cache specifically
-.next/cache/
 
 # Environment variables
 .env

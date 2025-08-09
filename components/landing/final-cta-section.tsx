@@ -18,7 +18,8 @@ export function FinalCTASection() {
             size="lg"
             className="bg-white text-blue-600 hover:bg-gray-100"
           >
-            Start Free Trial <ArrowRight className="ml-2 h-4 w-4" />
+            <a href="/waiting-list">Start Free Trial</a>{" "}
+            <ArrowRight className="ml-2 h-4 w-4" />
           </Button>
           <Button
             size="lg"

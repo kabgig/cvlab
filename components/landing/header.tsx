@@ -27,7 +27,7 @@ export function Header() {
         </nav>
 
         <Button className="bg-blue-600 hover:bg-blue-700">
-          Start Free Trial
+          <a href="/waiting-list">Start Free Trial</a>
         </Button>
       </div>
     </header>

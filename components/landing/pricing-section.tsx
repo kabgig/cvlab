@@ -43,7 +43,7 @@ export function PricingSection() {
               </ul>
 
               <Button variant="outline" className="w-full">
-                Start Free
+                <a href="/waiting-list">Start Free</a>
               </Button>
               <p className="text-xs text-gray-500 text-center mt-2">
                 No credit card required
@@ -87,7 +87,7 @@ export function PricingSection() {
               </ul>
 
               <Button className="w-full bg-white text-blue-600 hover:bg-gray-100">
-                Get Started
+                <a href="/waiting-list">Get Started</a>
               </Button>
             </CardContent>
           </Card>
