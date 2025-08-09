@@ -43,30 +43,28 @@ export default function CVLabLanding() {
 
       {/* Cookie Banner */}
       {showCookieBanner && (
-        <div className="fixed bottom-4 left-4 right-4 bg-white border border-gray-200 rounded-lg shadow-lg p-4 z-50">
-          <div className="flex items-center justify-between">
-            <p className="text-sm text-gray-600">
-              We use cookies to enhance your experience and analyze site usage.
-              <a href="#" className="text-blue-600 hover:underline ml-1">
-                Learn more
-              </a>
-            </p>
-            <div className="flex space-x-2">
-              <Button
-                variant="outline"
-                size="sm"
-                onClick={handleEssentialCookies}
-              >
-                Essential Only
-              </Button>
-              <Button
-                size="sm"
-                className="bg-blue-600 hover:bg-blue-700"
-                onClick={handleAcceptCookies}
-              >
-                Accept All
-              </Button>
-            </div>
+        <div className="fixed inset-x-0 bottom-0 z-50 bg-white border-t border-gray-200 shadow-lg py-3 px-6 flex flex-col sm:flex-row items-center justify-between gap-4">
+          <p className="text-sm text-gray-600">
+            We use cookies to enhance your experience and analyze site usage.
+            <a href="#" className="text-blue-600 hover:underline ml-1">
+              Learn more
+            </a>
+          </p>
+          <div className="flex space-x-2">
+            <Button
+              variant="outline"
+              size="sm"
+              onClick={handleEssentialCookies}
+            >
+              Essential Only
+            </Button>
+            <Button
+              size="sm"
+              className="bg-blue-600 hover:bg-blue-700"
+              onClick={handleAcceptCookies}
+            >
+              Accept All
+            </Button>
           </div>
         </div>
       )}
