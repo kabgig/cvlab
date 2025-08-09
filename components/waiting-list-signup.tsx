@@ -29,7 +29,7 @@ export function WaitingListSignup() {
           <p className="text-gray-600">
             Be the first to transform your CV processing workflow.
             <br />
-            Get notified on service launch.
+            Get notified on service launch soon.
             <br />
             👇👇👇
           </p>
