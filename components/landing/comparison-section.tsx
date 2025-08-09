@@ -1,11 +1,10 @@
-import { Card, CardContent } from "@/components/ui/card";
 import { CheckCircle, XCircle } from "lucide-react";
 
 export function ComparisonSection() {
   return (
     <section className="py-20">
       <div className="container mx-auto px-4">
-        <Card className="overflow-hidden">
+        <div className="overflow-hidden">
           <div className="bg-blue-600 text-white text-center py-6">
             <h2 className="text-3xl font-bold">See the CVLab Difference</h2>
           </div>
@@ -89,7 +88,7 @@ export function ComparisonSection() {
               </ul>
             </div>
           </div>
-        </Card>
+        </div>
       </div>
     </section>
   );
