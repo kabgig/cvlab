@@ -23,7 +23,7 @@ import {
 } from "lucide-react";
 import { useState } from "react";
 
-export default function CVReadyLanding() {
+export default function CVLabLanding() {
   const [cvCount, setCvCount] = useState([500]);
   const [timePerCv, setTimePerCv] = useState([40]);
   const [hourlyRate, setHourlyRate] = useState([28]);
@@ -32,8 +32,8 @@ export default function CVReadyLanding() {
   const currentCost = Math.round(
     (cvCount[0] * timePerCv[0] * hourlyRate[0]) / 60
   );
-  const cvreadyCost = 500;
-  const monthlySavings = currentCost - cvreadyCost;
+  const cvlabCost = 500;
+  const monthlySavings = currentCost - cvlabCost;
   const annualSavings = monthlySavings * 12;
 
   const handleAcceptCookies = () => {
@@ -53,7 +53,7 @@ export default function CVReadyLanding() {
             <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
               <span className="text-white font-bold text-lg">C</span>
             </div>
-            <span className="text-xl font-bold text-gray-900">CVReady</span>
+            <span className="text-xl font-bold text-gray-900">CVLab</span>
           </div>
 
           <nav className="hidden md:flex items-center space-x-8">
@@ -143,7 +143,7 @@ export default function CVReadyLanding() {
             <div className="text-center">
               <div className="bg-blue-600 p-8 rounded-lg text-white mb-4">
                 <div className="text-2xl font-bold mb-2">C</div>
-                <div className="text-sm font-medium">CVReady</div>
+                <div className="text-sm font-medium">CVLab</div>
                 <div className="text-xs mt-2">Processing...</div>
               </div>
               <div className="text-sm font-medium">AI PROCESSING</div>
@@ -542,7 +542,7 @@ export default function CVReadyLanding() {
         <div className="container mx-auto px-4">
           <Card className="overflow-hidden">
             <div className="bg-blue-600 text-white text-center py-6">
-              <h2 className="text-3xl font-bold">See the CVReady Difference</h2>
+              <h2 className="text-3xl font-bold">See the CVLab Difference</h2>
             </div>
 
             <div className="grid md:grid-cols-2">
@@ -550,7 +550,7 @@ export default function CVReadyLanding() {
                 <div className="flex items-center mb-6">
                   <XCircle className="h-6 w-6 text-red-600 mr-3" />
                   <h3 className="text-xl font-bold text-red-600">
-                    Without CVReady
+                    Without CVLab
                   </h3>
                 </div>
 
@@ -590,7 +590,7 @@ export default function CVReadyLanding() {
                 <div className="flex items-center mb-6">
                   <CheckCircle className="h-6 w-6 text-green-600 mr-3" />
                   <h3 className="text-xl font-bold text-green-600">
-                    With CVReady
+                    With CVLab
                   </h3>
                 </div>
 
@@ -642,7 +642,7 @@ export default function CVReadyLanding() {
               Your ATS is a Sitting Duck for AI Attacks
             </h2>
             <p className="text-xl text-gray-300 max-w-4xl mx-auto">
-              Every major ATS platform is vulnerable. CVReady is your digital
+              Every major ATS platform is vulnerable. CVLab is your digital
               bouncer, checking every resume for hidden threats.
             </p>
           </div>
@@ -738,16 +738,18 @@ export default function CVReadyLanding() {
         <div className="container mx-auto px-4">
           <Card className="bg-gray-800 border-gray-700">
             <CardContent className="p-12">
-              <h2 className="text-3xl font-bold text-center mb-12">
-                How CVReady Shields Your ATS
+              <h2 className="text-3xl font-bold text-center mb-12 text-white">
+                How CVLab Shields Your ATS
               </h2>
 
               <div className="grid md:grid-cols-3 gap-8 mb-8">
                 <div className="text-center">
                   <div className="w-16 h-16 bg-blue-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-2xl font-bold">1</span>
+                    <span className="text-2xl font-bold text-white">1</span>
                   </div>
-                  <h3 className="text-xl font-bold mb-4">Detection</h3>
+                  <h3 className="text-xl font-bold mb-4 text-white">
+                    Detection
+                  </h3>
                   <p className="text-gray-300">
                     Advanced AI scans for hidden text, Unicode tricks, and
                     prompt injections
@@ -756,9 +758,11 @@ export default function CVReadyLanding() {
 
                 <div className="text-center">
                   <div className="w-16 h-16 bg-orange-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-2xl font-bold">2</span>
+                    <span className="text-2xl font-bold text-white">2</span>
                   </div>
-                  <h3 className="text-xl font-bold mb-4">Sanitization</h3>
+                  <h3 className="text-xl font-bold mb-4 text-white">
+                    Sanitization
+                  </h3>
                   <p className="text-gray-300">
                     Removes all malicious content while preserving legitimate
                     information
@@ -767,9 +771,11 @@ export default function CVReadyLanding() {
 
                 <div className="text-center">
                   <div className="w-16 h-16 bg-green-600 rounded-full flex items-center justify-center mx-auto mb-4">
-                    <span className="text-2xl font-bold">3</span>
+                    <span className="text-2xl font-bold text-white">3</span>
                   </div>
-                  <h3 className="text-xl font-bold mb-4">Verification</h3>
+                  <h3 className="text-xl font-bold mb-4 text-white">
+                    Verification
+                  </h3>
                   <p className="text-gray-300">
                     Clean CVs certified safe for your ATS to process confidently
                   </p>
@@ -799,8 +805,8 @@ export default function CVReadyLanding() {
               Calculate Your Savings
             </h2>
             <p className="text-xl text-gray-600">
-              See exactly how much time and money CVReady saves your agency
-              every month
+              See exactly how much time and money CVLab saves your agency every
+              month
             </p>
           </div>
 
@@ -874,10 +880,8 @@ export default function CVReadyLanding() {
                       </div>
 
                       <div className="flex justify-between">
-                        <span className="text-gray-700">CVReady Cost:</span>
-                        <span className="font-bold text-xl">
-                          €{cvreadyCost}
-                        </span>
+                        <span className="text-gray-700">CVLab Cost:</span>
+                        <span className="font-bold text-xl">€{cvlabCost}</span>
                       </div>
 
                       <hr />
@@ -1090,7 +1094,7 @@ export default function CVReadyLanding() {
                 </div>
 
                 <blockquote className="text-gray-700 mb-6">
-                  "We process 800+ CVs monthly. CVReady saves us 533 hours -
+                  "We process 800+ CVs monthly. CVLab saves us 533 hours -
                   that's 3 full-time positions we can redeploy to revenue
                   generation. The AI security feature caught 12 manipulation
                   attempts in our first week!"
@@ -1125,7 +1129,7 @@ export default function CVReadyLanding() {
 
                 <blockquote className="text-gray-700 mb-6">
                   "Lost a €15K placement to formatting delays. Never again.
-                  CVReady transformed our workflow - now we're first to submit
+                  CVLab transformed our workflow - now we're first to submit
                   every time. Plus, knowing our ATS is protected from
                   manipulation? Priceless."
                 </blockquote>
@@ -1160,7 +1164,7 @@ export default function CVReadyLanding() {
                 <blockquote className="text-gray-700 mb-6">
                   "My recruiters actually smile now. No more soul-crushing
                   formatting work. They focus on relationships and placements.
-                  Revenue up 30% since we started using CVReady 3 months ago."
+                  Revenue up 30% since we started using CVLab 3 months ago."
                 </blockquote>
 
                 <div className="flex items-center">
@@ -1204,7 +1208,7 @@ export default function CVReadyLanding() {
             <Button
               size="lg"
               variant="outline"
-              className="border-white text-white hover:bg-white hover:text-blue-600"
+              className="border-white text-blue-600 hover:bg-white hover:text-blue-600"
             >
               Calculate Your ROI
             </Button>
@@ -1241,7 +1245,7 @@ export default function CVReadyLanding() {
                 <div className="w-8 h-8 bg-blue-600 rounded-lg flex items-center justify-center">
                   <span className="text-white font-bold text-lg">C</span>
                 </div>
-                <span className="text-xl font-bold">CVReady</span>
+                <span className="text-xl font-bold">CVLab</span>
               </div>
               <p className="text-gray-400 mb-4">
                 Transform CVs. Protect your ATS. Save thousands.
@@ -1327,7 +1331,7 @@ export default function CVReadyLanding() {
 
           <div className="text-center text-gray-400">
             <p>
-              © 2025 CVReady. All rights reserved. Built with ❤️ for recruiters
+              © 2025 CVLab. All rights reserved. Built with ❤️ for recruiters
               who value their time.
             </p>
           </div>
@@ -1345,10 +1349,18 @@ export default function CVReadyLanding() {
               </a>
             </p>
             <div className="flex space-x-2">
-              <Button variant="outline" size="sm" onClick={handleEssentialCookies}>
+              <Button
+                variant="outline"
+                size="sm"
+                onClick={handleEssentialCookies}
+              >
                 Essential Only
               </Button>
-              <Button size="sm" className="bg-blue-600 hover:bg-blue-700" onClick={handleAcceptCookies}>
+              <Button
+                size="sm"
+                className="bg-blue-600 hover:bg-blue-700"
+                onClick={handleAcceptCookies}
+              >
                 Accept All
               </Button>
             </div>
