@@ -7,6 +7,9 @@ node_modules/
 out/
 build/
 
+# Next.js cache specifically
+.next/cache/
+
 # Environment variables
 .env
 .env.local
