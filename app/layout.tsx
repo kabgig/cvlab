@@ -7,7 +7,6 @@ export const metadata: Metadata = {
   title: "CVLab - Resume Converter",
   description:
     "Transform CVs in 60 seconds while protecting your ATS from AI manipulation",
-  generator: "v0.dev",
 };
 
 export default function RootLayout({
