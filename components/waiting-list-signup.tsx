@@ -13,10 +13,10 @@ export function WaitingListSignup() {
   const handleSubmit = async (e: React.FormEvent) => {
     e.preventDefault();
     setIsLoading(true);
-    
+
     // Simulate API call
-    await new Promise(resolve => setTimeout(resolve, 1000));
-    
+    await new Promise((resolve) => setTimeout(resolve, 1000));
+
     setIsSubmitted(true);
     setIsLoading(false);
   };
@@ -33,10 +33,11 @@ export function WaitingListSignup() {
               You're on the list!
             </h2>
             <p className="text-gray-600 mb-6">
-              We'll notify you as soon as CVLab is ready. Expect early access within the next few weeks.
+              We'll notify you as soon as CVLab is ready. Expect early access
+              within the next few weeks.
             </p>
-            <Button 
-              onClick={() => window.location.href = "/"}
+            <Button
+              onClick={() => (window.location.href = "/")}
               variant="outline"
               className="w-full"
             >
@@ -62,11 +63,14 @@ export function WaitingListSignup() {
             Be the first to transform your CV processing workflow
           </p>
         </CardHeader>
-        
+
         <CardContent className="p-6">
           <form onSubmit={handleSubmit} className="space-y-4">
             <div>
-              <label htmlFor="email" className="block text-sm font-medium text-gray-700 mb-2">
+              <label
+                htmlFor="email"
+                className="block text-sm font-medium text-gray-700 mb-2"
+              >
                 Email Address
               </label>
               <div className="relative">
@@ -82,16 +86,16 @@ export function WaitingListSignup() {
                 />
               </div>
             </div>
-            
-            <Button 
-              type="submit" 
+
+            <Button
+              type="submit"
               className="w-full bg-blue-600 hover:bg-blue-700"
               disabled={isLoading}
             >
               {isLoading ? "Joining..." : "Join Waiting List"}
             </Button>
           </form>
-          
+
           <div className="mt-6 space-y-3 text-sm text-gray-600">
             <div className="flex items-center">
               <CheckCircle className="h-4 w-4 text-green-600 mr-2" />
@@ -106,7 +110,7 @@ export function WaitingListSignup() {
               <span>20% discount on first month</span>
             </div>
           </div>
-          
+
           <p className="text-xs text-gray-500 mt-6 text-center">
             No spam. Unsubscribe anytime. We respect your privacy.
           </p>

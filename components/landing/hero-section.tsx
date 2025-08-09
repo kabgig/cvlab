@@ -25,7 +25,8 @@ export function HeroSection() {
 
           <div className="flex flex-col sm:flex-row gap-4 justify-center mb-12">
             <Button size="lg" className="bg-blue-600 hover:bg-blue-700">
-              <a href="/waiting-list">Start 20 Free CVs</a> <ArrowRight className="ml-2 h-4 w-4" />
+              <a href="/waiting-list">Start 20 Free CVs</a>{" "}
+              <ArrowRight className="ml-2 h-4 w-4" />
             </Button>
             <Button
               size="lg"
