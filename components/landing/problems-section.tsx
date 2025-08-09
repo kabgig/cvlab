@@ -142,7 +142,7 @@ export function ProblemsSection() {
                   Your ATS is Under Attack
                 </h4>
 
-                <div className="bg-white p-4 rounded-lg font-mono text-sm mb-6">
+                <div className="bg-white p-4 rounded-lg text-sm mb-6">
                   <div className="text-gray-500 mb-2">// What you see:</div>
                   <div className="mb-4">
                     John Smith - Software Developer with 5 years experience...
