@@ -10,7 +10,7 @@ export function FinalCTASection() {
         </h2>
         <p className="text-xl text-blue-100 mb-8 max-w-4xl mx-auto">
           Join 50+ agencies saving €194,000/year while protecting their ATS from
-          AI manipulation. Start with 20 free CVs - no credit card required.
+          AI manipulation. Start with 5 free CVs - no credit card required.
         </p>
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center mb-8">
@@ -32,12 +32,12 @@ export function FinalCTASection() {
 
         <p className="text-blue-200 mb-12">
           <CheckCircle className="inline h-4 w-4 mr-2" />
-          No credit card required • 20 free CVs included
+          No credit card required • 5 free CVs included
         </p>
 
         <div className="grid md:grid-cols-3 gap-8 max-w-2xl mx-auto">
           <div className="text-center">
-            <div className="text-3xl font-bold mb-2">30 sec</div>
+            <div className="text-3xl font-bold mb-2">60 sec</div>
             <div className="text-blue-200">Per CV Processing</div>
           </div>
           <div className="text-center">

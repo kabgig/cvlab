@@ -36,7 +36,7 @@ export function Footer() {
                 </a>
               </li>
               <li>
-                <a href="#" className="hover:text-white">
+                <a href="#roi-calculator" className="hover:text-white">
                   ROI Calculator
                 </a>
               </li>
