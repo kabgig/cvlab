@@ -4,8 +4,8 @@ import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
+  title: 'CVLab - Resume Converter',
+  description: 'Transform CVs in 60 seconds while protecting your ATS from AI manipulation',
   generator: 'v0.dev',
 }
 
