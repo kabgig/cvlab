@@ -32,7 +32,8 @@ export function HeroSection() {
               variant="outline"
               className="border-blue-200 text-blue-600 hover:bg-blue-200 hover:text-blue-600"
             >
-              Calculate Your ROI <Calculator className="ml-2 h-4 w-4" />
+              <a href="#roi-calculator">Calculate Your ROI</a>{" "}
+              <Calculator className="ml-2 h-4 w-4" />
             </Button>
           </div>
 

@@ -25,7 +25,7 @@ export function FinalCTASection() {
             variant="outline"
             className="border-blue-200 text-blue-600 hover:bg-blue-200 hover:text-blue-600"
           >
-            Calculate Your ROI
+            <a href="#roi-calculator">Calculate Your ROI</a>
           </Button>
         </div>
 
