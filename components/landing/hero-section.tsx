@@ -4,7 +4,7 @@ import { Shield, Zap, CheckCircle, ArrowRight, Calculator } from "lucide-react";
 
 export function HeroSection() {
   return (
-    <section className="py-20 bg-gray-50">
+    <section className="py-10 bg-gray-50">
       <div className="container mx-auto px-4">
         <div className="text-center mb-8">
           <Badge className="bg-green-100 text-green-800 mb-6">
@@ -58,12 +58,12 @@ export function HeroSection() {
           <div className="text-center">
             <div className="bg-white p-6 rounded-lg shadow-sm mb-4">
               <div className="text-xs text-gray-500 mb-2">TXT</div>
-              <div className="text-sm">resume.txt</div>
+              <div className="text-sm">Resume.txt</div>
               <div className="text-xs text-red-600 mt-1">AI</div>
-              <div className="text-xs">cv.pdf</div>
-              <div className="text-xs">cv.docx</div>
+              <div className="text-xs">CV.pdf</div>
+              <div className="text-xs">CV.docx</div>
               <div className="text-xs text-purple-600 mt-1">MD</div>
-              <div className="text-xs">about.md</div>
+              <div className="text-xs">About.md</div>
             </div>
             <div className="text-sm font-medium">MULTIPLE FORMATS</div>
           </div>
